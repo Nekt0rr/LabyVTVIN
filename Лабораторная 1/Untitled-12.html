@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Задание 12</title>
+<script>
+function changePB(value)
+{
+document.getElementById("Progress").value = value;
+}
+</script>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1>Карта сокровищ</h1><hr>
+<img width="640" height="400" src="task12.jpg" alt="карта сокровищ" usemap="#karta">
+<map name="karta">
+<area shape="circle" coords="106,330,40" href="#" title="Осьминог" alt="Осьминог" onclick="changePB(66)" >
+<area shape="circle" coords="549,55,40" href="#" title="Акула" alt="Акула" onclick="changePB(33)" >
+<area shape="circle" coords="314,352,40" href="#" title="Корабль" alt="Корабль" onclick="changePB(0)" >
+<area shape="circle" coords="356,142,40" href="#" title="Клад" alt="Клад" onclick="changePB(100)" >
+</map>
+<br>
+<p>Пройдено: 
+<progress id="Progress" max="100" value="60"></progress></p><hr>
+<p>
+<i>@www.bsuir.by</i>
+</p>
+</body>
+</html>
