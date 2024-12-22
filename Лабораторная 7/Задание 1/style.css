@@ -1,0 +1,586 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+
+.cs2{
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:65px;
+  margin-left:200px;
+}
+
+.container{
+  display: flex;
+  list-style: none;
+}
+
+.part {
+  position: relative; /* Добавляем позиционирование */
+}
+
+.link {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:25px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.subnav {
+  display: none;
+  position: absolute; /* Устанавливаем абсолютное позиционирование */
+  top: 100%; 
+  left: 0; 
+  background-color: white; 
+  padding: 0;
+  list-style: none;
+  z-index: 1; 
+  border:1px solid #ccc;
+}
+
+.sublink {
+  display: block;
+  padding: 8px 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.part:hover > .subnav {
+  display: block; 
+}
+
+.sublink:hover {
+  background-color: #575757; 
+}
+
+.history {
+    background-color: white; 
+    padding: 50px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.circle{
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:60px;
+}
+
+.info{
+  font-size:30px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gallery{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap
+}
+
+.picture{
+ width:30%;
+ margin:10px;
+ border-radius:13px;
+ overflow:hidden;
+}
+
+.picture img {
+ width:100%;
+ height:auto;
+ display:block
+}
+
+.achievements{
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:100px;
+  align-items: center;
+  padding-left:30px;
+  margin:0;
+  text-decoration: none;
+} 
+
+.symbol{
+ width:70px;
+ height:70px;
+ margin-left:15px;
+}
+
+.first{
+  position:relative;
+  font-size:30px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  left:33px;
+  top:20px;
+}
+
+.text-block{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-top:100px;
+    margin-left:30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border:1px solid;
+    height:300px;
+}
+
+.wins{
+  font-size:50px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.one{
+ height:530px;
+}
+
+.blast{
+  position: absolute;
+  width: 100%;
+  width:650px;
+  margin-left:30px;
+  margin-top:35px;
+}
+
+.final{
+  border-radius: 8px;
+  width:650px;
+}
+
+.two{
+  height:530px;
+}
+
+.second{
+  position:relative;
+  font-size:30px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left:33px;
+}
+
+.text-block2{
+  position:absolute;
+  margin-left:30px;
+  border-radius:8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border:1px solid;
+  height:300px;
+  margin-top:65px;
+}
+
+.Blast-Fall{
+  position: absolute;
+  width: 100%;
+  width:650px;
+  margin-left:30px;
+}
+
+.fall{
+  border-radius: 8px;
+  width:650px;
+}
+
+.three{
+ height:530px;
+}
+
+.third{
+  position:relative;
+  font-size:30px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left:33px;
+}
+
+.text-block3{
+  position:absolute;
+  margin-left:30px;
+  border-radius:8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border:1px solid;
+  height:300px;
+  margin-top:65px;
+}
+
+.iem-Dallas{
+  position: absolute;
+  width: 100%;
+  width:650px;
+  margin-left:30px;
+}
+
+.dallas{
+  border-radius: 8px;
+  width:650px;
+}
+
+.four{
+ height:530px;
+}
+
+.fourth{
+  position:relative;
+  font-size:30px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left:33px;
+}
+
+.text-block4{
+  position:absolute;
+  margin-top:65px;
+  margin-left:30px;
+  border-radius:8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border:1px solid;
+  height:300px;
+}
+
+.iem-Cologne{
+  position: absolute;
+  width: 100%;
+  width:650px;
+  margin-left:30px;
+}
+
+.cologne{
+  border-radius: 8px;
+  width:650px;
+}
+
+.five{
+ height:490px;
+}
+
+.fifth{
+  position:relative;
+  font-size:30px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left:33px;
+}
+
+.text-block5{
+  position:absolute;
+  margin-top:65px;
+  margin-left:30px;
+  border-radius:8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border:1px solid;
+  height:300px;
+}
+
+.iem-Katowice{
+  position: absolute;
+  width: 100%;
+  width:650px;
+  margin-left:30px;
+}
+
+.katowice{
+  border-radius: 8px;
+  width:650px;
+}
+
+.roster{
+ text-align:center;
+ background-color:white;
+}
+.roster-link{
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:90px;
+}
+
+.form{
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+
+.meme1, .meme2{
+  width: 25%;
+  padding:140px;
+}
+
+.slider {
+  position: relative;
+  width: 80%;
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  justify-self:center;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+}
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
+
+.roster{
+  background-color: red;
+}
+
+.roof{
+  font-size:40px;
+  color:black ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.role{
+  font-size:20px;
+  color:white ;
+  font-family: "Josefin Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footlogo{
+ width:65px;
+ height:65px;
+ margin-left:75px;
+ margin-top:40px;
+}
+
+footer{
+  background-color: black;
+  color:white;
+  display:flex;
+
+}
+
+.big-word{
+  font-size:60px;
+  color:red;
+}
+
+.small-word{
+ font-size:20px;
+} 
+
+footer ul{
+  list-style-type:none;
+  line-height:1.5;
+}
+
+.square{
+ display:flex;
+ gap:200px;
+ align-items:flex-start;
+ font-family: "Josefin Sans", serif;
+ font-weight: 400;
+ font-style: normal;
+ position:relative;
+ left:200px;
+}
+
+footer a{
+  text-decoration: none;
+  color:white
+}
+
+@media (max-width: 1200px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .cs2 {
+    font-size: 50px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .achievements {
+    font-size: 70px;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .text-block, .text-block2, .text-block3, .text-block4, .text-block5 {
+    margin-left: 0;
+    width: 90%;
+    left: 5%;
+  }
+
+  .blast, .Blast-Fall, .iem-Dallas, .iem-Cologne, .iem-Katowice {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .link {
+    font-size: 18px;
+    padding: 6px 12px;
+  }
+
+  .sublink {
+    font-size: 16px;
+  }
+
+  .info {
+    font-size: 24px;
+  }
+
+  .gallery .picture {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .roster-link {
+    font-size: 60px;
+  }
+
+  .roof {
+    font-size: 30px;
+  }
+
+  .role {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link {
+    font-size: 22px;
+  }
+
+  .achievements {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 10px;
+  }
+
+  .cs2 {
+    font-size: 40px;
+    margin-left: 0;
+  }
+
+  .achievements {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .info {
+    font-size: 20px;
+  }
+
+  .gallery .picture {
+    width: 100%;
+  }
+
+  .symbol {
+    width: 50px;
+    height: 50px;
+  }
+}
