@@ -1,0 +1,23 @@
+.blur{
+border:1px solid;
+height:200px;
+width:200px;
+box-shadow:15px 15px 10px grey;
+margin-left:25px;
+}
+.double{
+box-shadow:15px 15px 10px grey,-20px -27px 10px grey;
+margin-top:75px;
+border:1px solid;
+height:200px;
+width:200px;
+margin-left:25px;
+}
+.inside{
+box-shadow:inset 5px 5px 10px grey;
+margin-top: 75px;
+border:1px solid;
+height:200px;
+width:200px;
+margin-left:25px;
+}

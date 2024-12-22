@@ -1,0 +1,15 @@
+.container{
+    display:grid;
+    gap:10px;
+    grid-template-columns: repeat(2,minmax(20px,40px));
+    grid-template-rows: repeat(3,minmax(40px,60px));
+    }
+.element{
+    background-color: aqua;
+    }    
+@media(max-width:120px) {
+.container{
+grid-template-columns: 1fr;
+grid-template-rows: repeat(6,minmax(40px,60px));
+}
+}

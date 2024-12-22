@@ -1,0 +1,55 @@
+.grid-container{
+    display:grid;
+    gap:10px;
+    grid-template-rows:repeat(2,100px);
+    width: 100%;
+    max-width: 900px;
+}
+.flex-element{
+    display:flex;
+    background-color: peachpuff;
+    height:200px;
+    flex-direction:column;
+}
+.shape{
+    padding:15px;
+    margin-left: 10px;
+    margin-right:10px;
+    height:40px;
+}
+.shape.first{
+    background-color:plum;
+}
+.shape.second{
+    background-color:rgb(86, 102, 248); 
+}
+.shape.third{
+    background-color:rgb(33, 160, 44); 
+}
+.title{
+    font-family: "Dancing Script",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align:center;
+}
+.content{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:10px;
+    text-align:center;
+    height:40px;
+}
+.row1{
+    font-family: "Dancing Script",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align:center;
+    grid-column:1/-1;
+}
+.row2{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:10px;
+    grid-auto-flow: dense;
+}

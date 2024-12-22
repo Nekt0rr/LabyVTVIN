@@ -1,0 +1,28 @@
+.text{
+text-shadow:grey 8px 12px;
+}
+.blur{
+text-shadow:grey 8px 12px 50px;
+margin-top:5px;
+}
+.double{
+text-shadow:red 4px 6px 2px,blue -4px -6px 2px;
+margin-top:5px;
+}
+.pressed{
+font-size:20px;
+color:#ccc;
+text-shadow: 1px 1px 0 rgba(255,255,255,0.8), -1px -1px 0 rgba(0,0,0,0.5);
+margin-top:5px;  
+}
+.voluminous{
+color:#089dcb;
+text-shadow:1px 1px 1px #333, -1px -1px #0ff;
+margin-top:5px;
+}
+.circuit{
+font-size:25px;
+color:white;
+-webkit-text-stroke:1px black;
+margin-top:5px;
+}

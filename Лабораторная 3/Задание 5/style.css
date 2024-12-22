@@ -1,0 +1,21 @@
+.container{
+display:flex;
+justify-content:center;
+margin:20px;
+}
+.button:hover{
+background-color:#ccc;
+}
+.button:active{
+background-color:#d10953;
+}
+.button{
+width:40px;
+height:40px;
+margin:0 3px;
+color:#333;
+text-align:center;
+line-height:40px;
+background-color:#ddd;
+text-decoration:none;
+}

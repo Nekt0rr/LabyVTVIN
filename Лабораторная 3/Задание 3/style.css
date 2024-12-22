@@ -1,0 +1,23 @@
+header{
+    border: 1px solid;
+    height: 165px;
+    width:650px;
+  }
+.container{
+    display:flex;
+}
+aside{
+    border:1px solid;
+    height:435px;
+    width:180px;
+}
+.content{
+    border:1px solid;
+    width:468px;
+    height:435px;
+}
+footer{
+    border:1px solid;
+    width:650px;
+    height:165px;   
+}

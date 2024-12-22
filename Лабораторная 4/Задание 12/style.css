@@ -1,0 +1,15 @@
+.container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+flex-direction:row;
+}
+.box{
+background-color: #0000ff;
+color: white;
+margin: 5px;
+flex:1;
+min-width:200px; 
+text-align:center;
+height: 500px;
+}

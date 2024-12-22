@@ -1,0 +1,19 @@
+.block{
+display:block;
+border:1px solid;
+margin-top:15px;
+width:150px;
+height:150px;
+}
+.block.cursore{
+cursor:pointer;
+}
+.block.cursircle{
+cursor:progress;
+}
+.block.circle{
+cursor:wait;
+}
+.block.free{
+cursor:url('free-cursor.png'), auto;
+}

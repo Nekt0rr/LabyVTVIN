@@ -1,0 +1,99 @@
+.container{
+display:flex;
+}
+.form{
+display:flex;
+margin-top:5px;
+}
+.first{
+border:1px solid;
+width:100px;
+height:100px;
+background-image:linear-gradient(yellow, white);
+}
+.second{
+margin-left:10px;
+border:1px solid;
+width:100px;
+height:100px;
+background-image:linear-gradient(to left,white, yellow);
+}
+.third{
+margin-left:10px;
+border:1px solid;
+width:100px;
+height:100px;
+background-image:linear-gradient(to right,white, yellow);
+}
+.fourth{
+border:1px solid;
+width:155px;
+height:100px;
+background-image:linear-gradient(red 33%,white 33%,white 66%,red 66%);
+}
+.fifth{
+margin-left:10px;
+border:1px solid;
+width:156px;
+height:100px;
+background-image:linear-gradient(to right,red,blue,white,red);
+}
+.radial{
+margin-top:25px;
+}
+.circle{
+display:flex;
+}
+.shape{
+display:flex;
+margin-top:5px;
+}
+.one{
+border:1px solid;
+width:100px;
+height:100px;
+background-image:radial-gradient(circle, rgb(0, 255, 255) 0%, rgb(0, 128, 255) 100%);
+}
+.two{
+border:1px solid; 
+width:250px;
+height:100px;  
+margin-left:10px;
+background-image:radial-gradient(circle, rgb(0, 255, 255) 0%, rgb(0, 128, 255) 100%);
+}
+.three{
+border:1px solid;
+width:200px;
+height:100px;
+background-image:radial-gradient(circle at 10% 20%,rgb(0,255,255) 0%, rgb(0,255,255) 3%, rgb(0,128,255) 15%);
+}
+.four{
+border:1px solid;
+width:200px;
+height:100px;
+margin-left:5px;
+background-image:radial-gradient(circle, rgb(26, 25, 25) 2%, grey 7%, white 14%,green 20%);
+}
+.repeating{
+margin-top:25px;
+}
+.uno{
+border:1px solid;
+width:300px;
+height:75px;
+background-image: repeating-linear-gradient(black, black 3px, white 3px,white 6px);
+}
+.dos{
+border:1px solid;
+width:300px;
+height:20px;
+margin-top:15px;
+background-image:repeating-linear-gradient(45deg,red 0,red 3px,white 3px,white 6px) ;
+}
+.tres{
+border:1px solid;
+width:300px;
+height:300px;
+margin-top:15px;
+background-image: repeating-radial-gradient(circle,black,black 5px, white 5px, white 10px);
+}

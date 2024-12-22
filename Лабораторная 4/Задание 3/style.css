@@ -1,0 +1,20 @@
+.first{
+text-decoration-style: wavy;
+text-decoration-color:blue;
+text-decoration-line:underline;
+}
+.second{
+text-decoration-style: dotted;
+text-decoration-color:pink;
+text-decoration-line:underline;
+}
+.third{
+text-decoration-style: dashed;
+text-decoration-color: green;
+text-decoration-line:underline;
+}
+.fourth{
+text-decoration-style:double;
+text-decoration-color:red;
+text-decoration-line:underline;
+}

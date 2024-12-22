@@ -1,0 +1,22 @@
+.first{
+border:1px solid;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+width:25%;
+}
+.first:hover{
+overflow:visible;
+white-space:normal;
+}
+.second{
+border:1px solid;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+width:25%;
+}
+.second:hover{
+overflow:visible;
+white-space:normal;
+}

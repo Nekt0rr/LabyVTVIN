@@ -1,0 +1,33 @@
+.container{
+display:flex;
+list-style: none;
+}
+.nav:hover > .subnav {
+    display: block;
+}
+.link{
+    display:block;
+    padding: 8px 16px;
+    background-color: #444;
+    color: #fff;
+    text-decoration: none;
+}
+.link:hover {
+    background-color: #333;
+}
+.subnav{
+    display: none;
+    font-size: 14px; 
+    padding:0;
+    list-style: none;
+}
+.sublink{
+    display:block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+.sublink:hover {
+    background-color: #444;
+  }

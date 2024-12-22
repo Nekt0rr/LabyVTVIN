@@ -1,0 +1,98 @@
+body{
+background-color:rgb(126, 99, 247);
+margin:0;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+width:1200px;
+}
+header{
+background-color:rgb(122, 85, 160);
+max-width:1200px;
+}
+.eas{
+display:flex;    
+margin:0;
+padding:0;
+list-style:none;
+}
+.part{
+position:relative;
+}
+.text{
+display:block;
+padding:8px 16px;
+background-color:rgb(122, 85, 160);
+color:#fff;
+text-decoration:none;
+}
+.text:hover{
+background-color:rgb(43, 15, 71);
+}
+main{
+display:flex;
+margin-top:20px;
+width:100%;
+max-width:1200px;
+margin-left:0px;
+height:1252px;
+flex-direction:row;
+}
+aside{
+width:200px;
+background-color:#fff;
+padding:15px;
+}
+.content{
+display:flex;   
+flex:1;
+background-color:#fff;
+flex-direction:column;
+}
+article{
+background-color:#fff;
+height:420px;
+}
+footer{
+display:flex;
+flex-direction:row;
+margin-top:20px;
+max-width:1200px;
+background-color:rgb(122, 85, 160);
+height:300px;
+}
+section{
+width:250px;
+margin:23px;
+background-color: #fff;
+margin-bottom:50px;
+}
+h1{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+article h1{
+text-align:center;
+}
+.chillguy{
+display:block;
+height:250px;
+width:500px;
+margin-inline:auto;
+}
+.xd{
+display:block;
+width:400px;
+height:150px;
+margin-inline:auto;
+}
+.minon{
+display:block;
+width:400px;
+height:150px;
+margin-inline:auto;
+}
+section h1{
+text-align:center;
+}
+section p{
+text-align:center;
+font-size:12px;
+}
